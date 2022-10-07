@@ -1,0 +1,51 @@
+html{
+    font-size: 16px;
+    color: honeydew;
+}
+body{
+    background-color: purple;
+}
+
+
+header{
+    margin: 0px;
+    padding: 1.25rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+
+header h1{
+    font-size: 2rem;
+}
+
+
+
+nav li{
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}

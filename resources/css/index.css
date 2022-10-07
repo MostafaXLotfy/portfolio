@@ -1,0 +1,12 @@
+#about{
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#about p{
+    width: 30rem;
+    text-align: center;
+}
