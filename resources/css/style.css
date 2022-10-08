@@ -21,6 +21,7 @@ header{
     right: 0px;
     left: 0px;
     top: 0px;
+    overflow: hidden;
 }
 
 
@@ -29,13 +30,17 @@ header h1{
 }
 
 
-
-nav li{
-    display: inline-block;
-    margin: 0.25rem;
+ul{
+    padding-left: 0;
 }
 
-header a{
+li{
+    display: inline-block;
+    margin: 0.25rem;
+    margin-left: 0;
+}
+
+a{
     text-decoration: none;
     color: inherit;
 }

@@ -1,12 +1,24 @@
-#about{
-    position: absolute;
-    top: 4rem;
-    right: 0;
-    left: 0;
-    bottom: 0;
+main{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    flex-direction: column;
 }
 
-#about p{
+
+.container{
     width: 30rem;
+    min-height: 10rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     text-align: center;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(purple, violet); 
+    box-shadow: -2px 2px 1px black;
 }
