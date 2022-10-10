@@ -1,0 +1,9 @@
+{
+    "skills":[
+        {"name": "c++", "dark_logo_path":"resources/images/dark/c++.png"},
+        {"name": "python", "dark_logo_path":"resources/images/dark/python.png"},
+        {"name": "html5", "dark_logo_path":"resources/images/dark/html5.png"},
+        {"name": "c++", "dark_logo_path":"resources/images/dark/js.png"},
+        {"name": "c++", "dark_logo_path":"resources/images/dark/cs3.svg"}
+    ]
+}
