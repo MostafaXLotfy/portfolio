@@ -24,18 +24,27 @@ header{
     overflow: hidden;
 }
 
+.mobile-header{
+    display: none;
+}
 
-header h1{
-    font-size: 2rem;
+.desktop-header h1{
+    font-size: 1.5rem;
+}
+
+.desktop-header li{
+    margin: 1rem;
 }
 
 
 ul{
     padding-left: 0;
+    flex-direction: row nowrap;
 }
 
 li{
     display: inline-block;
+    list-style: none;
     margin: 0.25rem;
     margin-left: 0;
 }
@@ -53,4 +62,53 @@ section{
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+
+    .desktop-header{
+        display: none;
+    }
+
+    .mobile-header{
+        display: flex;
+        padding: 10%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .mobile-header nav{
+        width: 100%;
+    }
+
+    .mobile-header ul{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    html{
+        font-size: 14px;
+    }
+
+    .desktop-header{
+        display: none;
+    }
+    
+    .mobile-header{
+        display: flex;
+    }
+    .mobile-header nav{
+        width: 100%;
+    }
+
+    .mobile-header ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
