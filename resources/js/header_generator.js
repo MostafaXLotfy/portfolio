@@ -8,7 +8,6 @@ function generate_header(home=true){
             <ul>
                 <li><a href="${prefix}/html/projects.html">Projects</a></li>
                 <li><a href="${prefix}/html/skills.html">Skills</a></li>
-                <li><a href="${prefix}/html/contact.html">Contact</a></li>
             </ul>
         </nav>
     `
