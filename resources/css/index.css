@@ -5,8 +5,9 @@ main{
     justify-content: center;
     align-content: center;
     width: 100%;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
+
 
 
 .container{
@@ -19,8 +20,7 @@ main{
     border: 1px solid black;
     margin: 1rem;
     border-radius: 1rem;
-    background-image: linear-gradient(purple, violet); 
-    box-shadow: -2px 2px 1px black;
+    background-image: linear-gradient(lightyellow); 
 }
 
 .contacts{
