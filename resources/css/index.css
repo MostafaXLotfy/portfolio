@@ -8,12 +8,14 @@ main{
     flex-flow: column wrap;
 }
 
-
+section h2{
+    font-size: 1.5rem;
+}
 
 .container{
-    width: 30rem;
-    min-height: 10rem;
     display: flex;
+    min-height: 10rem;
+    max-width: 30rem;
     flex-flow: column;
     justify-content: center;
     text-align: center;
@@ -21,6 +23,11 @@ main{
     margin: 1rem;
     border-radius: 1rem;
     background-image: linear-gradient(lightyellow); 
+    padding: 1rem;
+}
+
+.container p{
+    word-wrap: break-word;
 }
 
 .contacts{
