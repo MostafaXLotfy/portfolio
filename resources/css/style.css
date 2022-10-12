@@ -30,7 +30,7 @@ header{
     padding: 1.25rem;
     height: 4rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: 0.5;
     box-sizing: border-box;
