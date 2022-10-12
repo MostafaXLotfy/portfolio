@@ -30,7 +30,7 @@ header{
     padding: 1.25rem;
     height: 4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: 0.5;
     box-sizing: border-box;
@@ -52,6 +52,12 @@ header::before{
     left: 0;
     right: 0;
 }
+
+header nav{
+    left: 0;
+    right: inherit;
+}
+
 
 .mobile-header{
     display: none;
